@@ -31,11 +31,6 @@ class Main {
             form.classList.add("was-validated")
         });
 
-        document.querySelector("#btnAdd2").addEventListener("click", () => {
-            let form = document.querySelector("form");
-
-            if (form.checkValidity() == true) {}
-        })
     }
 }
 
